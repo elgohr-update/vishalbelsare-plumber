@@ -44,7 +44,7 @@ jobs:
 
     # https://github.com/marketplace/actions/publish-docker
     - name: rstudio/plumber
-      uses: elgohr/Publish-Docker-Github-Action@2.18
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: rstudio/plumber
         username: ${{ secrets.DOCKERHUB_USERNAME }}
